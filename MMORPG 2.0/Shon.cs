@@ -17,9 +17,21 @@ namespace MMORPG_2._0
         public int hp;
         public int dmg;
         public int armor;
-        public void Attack()
+        public void Attack(Shon s)
         {
-
+            s.hp -= this.dmg;
+        }
+        public void Attack(CAMBOPIG c)
+        {
+            c.hp -= this.dmg;
+        }
+        public void Attack(Gesmand_shooter g)
+        {
+            g.hp -= this.dmg;
+        }
+        public void Attack(Cris_Ey y)
+        {
+            y.hp -= this.dmg;
         }
     }
 }
