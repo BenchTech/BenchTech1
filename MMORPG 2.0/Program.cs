@@ -14,14 +14,14 @@ namespace MMORPG_2._0
             string target;
             //int nomer = int.Parse(Console.ReadLine());
             bool turne = true;
-            Cris_Ey Cris_Ey = new Cris_Ey(70, 80, 20);
-            Gesmand_shooter Gesmand_Shooter = new Gesmand_shooter(160, 140, 50);
-            Shon Shon = new Shon(40, 60, 10);
-            CAMBOPIG CAMBOPIG = new CAMBOPIG(300, 100, 10);
-            Cris_Ey Cris_Ey_Sec = new Cris_Ey(80, 70, 30);
-            Gesmand_shooter Gesmand_Shooter_Sec = new Gesmand_shooter(130, 150, 60);
-            Shon Shon_Sec = new Shon(50, 50, 20);
-            CAMBOPIG CAMBOPIG_Sec = new CAMBOPIG(200, 290, 20);
+            Cahrecter Cris_Ey = new Cris_Ey(70, 80, 20);
+            Cahrecter Gesmand_Shooter = new Gesmand_shooter(160, 140, 50);
+            Cahrecter Shon = new Shon(40, 60, 10);
+            Cahrecter CAMBOPIG = new CAMBOPIG(300, 100, 10);
+            Cahrecter Cris_Ey_Sec = new Cris_Ey(80, 70, 30);
+            Cahrecter Gesmand_Shooter_Sec = new Gesmand_shooter(130, 150, 60);
+            Cahrecter Shon_Sec = new Shon(50, 50, 20);
+            Cahrecter CAMBOPIG_Sec = new CAMBOPIG(200, 290, 20);
             //Cris_Ey.dmg = 80;
             //Cris_Ey.hp = 70;
             //Cris_Ey.armor = 20;
@@ -50,16 +50,16 @@ namespace MMORPG_2._0
             while (0 == 0)
             {
                 Console.WriteLine("Team 1 ");
-                Console.WriteLine("Cris Ey " + "Урон" + Cris_Ey.dmg + " " + " Жизни"+ Cris_Ey.hp + " " + "Броня" + Cris_Ey.armor );
-                Console.WriteLine("Gesmand Shooter " + "Урон" + Gesmand_Shooter.dmg + " " + " Жизни" + Gesmand_Shooter.hp + " " +"Броня" + Gesmand_Shooter.armor);
-                Console.WriteLine("Shon " + "Урон" + Shon.dmg + " " +" Жизни" + + Shon.hp + " " + "Броня" + Shon.armor );
-                Console.WriteLine("CAMBOPIG " + "Урон" + CAMBOPIG.dmg + " " + " Жизни" + CAMBOPIG.hp + " " + "Броня" + CAMBOPIG.armor );
+                Console.WriteLine("Cris Ey " + "Урон" + Cris_Ey.Dmg + " " + " Жизни"+ Cris_Ey.Hp + " " + "Броня" + Cris_Ey.Armor );
+                Console.WriteLine("Gesmand Shooter " + "Урон" + Gesmand_Shooter.Dmg + " " + " Жизни" + Gesmand_Shooter.Hp + " " +"Броня" + Gesmand_Shooter.Armor);
+                Console.WriteLine("Shon " + "Урон" + Shon.Dmg + " " +" Жизни" + + Shon.Hp + " " + "Броня" + Shon.Armor );
+                Console.WriteLine("CAMBOPIG " + "Урон" + CAMBOPIG.Dmg + " " + " Жизни" + CAMBOPIG.Hp + " " + "Броня" + CAMBOPIG.Armor );
                 Console.WriteLine("Team 2");
 
-               Console.WriteLine("Cris_Ey_Sec " + "Урон" + Cris_Ey_Sec.dmg + " " + " Жизни" + Cris_Ey_Sec.hp + " " + "Броня" + Cris_Ey_Sec.armor);
-                Console.WriteLine("Gesmand_Shooter_Sec " + "Урон" + Gesmand_Shooter_Sec.dmg + " " + " Жизни" + Gesmand_Shooter_Sec.hp + " " + "Броня" + Gesmand_Shooter_Sec.armor);
-                Console.WriteLine("Shon " + "Урон" + Shon_Sec.dmg + " " + " Жизни" + Shon_Sec.hp + " " + "Броня" + Shon_Sec.armor);
-                Console.WriteLine("CAMBOPIG_Sec " + "Урон" + CAMBOPIG_Sec.dmg + " " + " Жизни" + CAMBOPIG_Sec.hp + " " + "Броня" +  CAMBOPIG_Sec.armor);
+               Console.WriteLine("Cris_Ey_Sec " + "Урон" + Cris_Ey_Sec.Dmg + " " + " Жизни" + Cris_Ey_Sec.Hp + " " + "Броня" + Cris_Ey_Sec.Armor);
+                Console.WriteLine("Gesmand_Shooter_Sec " + "Урон" + Gesmand_Shooter_Sec.Dmg + " " + " Жизни" + Gesmand_Shooter_Sec.Hp + " " + "Броня" + Gesmand_Shooter_Sec.Armor);
+                Console.WriteLine("Shon " + "Урон" + Shon_Sec.Dmg + " " + " Жизни" + Shon_Sec.Hp + " " + "Броня" + Shon_Sec.Armor);
+                Console.WriteLine("CAMBOPIG_Sec " + "Урон" + CAMBOPIG_Sec.Dmg + " " + " Жизни" + CAMBOPIG_Sec.Hp + " " + "Броня" +  CAMBOPIG_Sec.Armor);
                 if (turne == true)
                 {
                     Console.WriteLine("Ход команды 1");
